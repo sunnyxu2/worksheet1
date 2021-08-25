@@ -1,0 +1,52 @@
+    1  ls
+    2  mkdir worksheet1
+    3  ls
+    4  cd worksheet1
+    5  git init
+    6  history > cmds.log
+    7  ls
+    8  cat cmds.log
+    9  git status
+   10  git add *
+   11  git status
+   12  git commit -m "Initial commit"
+   13  git config --global user.email "sunny.xu@sjsu.edu"
+   14  git config --global user.name "sunnyxu2"
+   15  git commit -m "Initial commit"
+   16  git log
+   17  git remote add origin https://github.com/sunnyxu2/worksheet1.git
+   18  git push -u origin main
+   19  git log
+   20  git push origin main
+   21  ls
+   22  git remote add origin https://github.com/sunnyxu2/worksheet1.git
+   23  git branch -M main
+   24  git push -u origin main
+   25  git config -l
+   26  git config --global credential.helper cache
+   27  git pull -v
+   28  cd
+   29  rm worksheet1
+   30  rm -r worksheet1
+   31  ls
+   32  mkdir worksheet1
+   33  cd worksheet1
+   34  history > cmds.log
+   35  cat cmds.log
+   36  passwd studento
+   37  passwd xu studento
+   38  passwd
+   39  cd worksheet1
+   40  ls
+   41  rm cmds.log
+   42  ls
+   43  cat history
+   44  ls
+   45  cd worksheet1
+   46  cd
+   47  rm -r worksheet1
+   48  ls
+   49  mkdir worksheet1
+   50  cd worksheet1
+   51  git init
+   52  history > cmds.log
